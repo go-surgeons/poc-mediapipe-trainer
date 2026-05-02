@@ -2,7 +2,7 @@
 
 `poc-mediapipe` の補助。自前で学習した Image Segmenter `.tflite` をブラウザに乗せるまでの導通を見るためのトレーニング・パイプライン。
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<ORG>/poc-mediapipe-trainer/blob/main/train_oxford_pet.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/go-surgeons/poc-mediapipe-trainer/blob/main/train_oxford_pet.ipynb)
 
 ## 何をするか
 
@@ -30,7 +30,7 @@ gh release create v0.1.0 \
 公開後の URL パターン:
 
 ```
-https://github.com/<ORG>/poc-mediapipe-trainer/releases/download/v0.1.0/oxford_pet_unet.tflite
+https://github.com/go-surgeons/poc-mediapipe-trainer/releases/download/v0.1.0/oxford_pet_unet.tflite
 ```
 
 これを `poc-mediapipe` の `scripts/download-models.sh` に追記する。
