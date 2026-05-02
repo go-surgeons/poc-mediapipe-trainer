@@ -15,6 +15,7 @@ Oxford-IIIT Pet（3 クラス trimap）で MobileNetV2 ベースの小さな U-N
 3. 全セルを順に実行（合計 10〜15 分）
 4. セル 8 で `oxford_pet_unet.tflite` がローカルにダウンロードされる
 5. 下記「Release フロー」で GH Release に upload
+6. バージョン不整合でエラーになる場合は notebook の Cell 1 のピンを最新に合わせて再実行
 
 ## Release フロー
 
